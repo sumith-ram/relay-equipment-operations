@@ -1,0 +1,30 @@
+{
+  "scope": "Historical local single-host release evidence; not customer or scale proof",
+  "historical_release_gate": "PASS",
+  "local_load_smoke": {
+    "requests": 12,
+    "successes": 12,
+    "elapsed_ms": 38.153,
+    "capacity_claim": false
+  },
+  "runtime_service_roles": "BYPASSRLS_APPLICATION_AUTHORIZATION_REQUIRED",
+  "exactly_once_external_effects": false,
+  "origins": [
+    {
+      "path": "release/release_manifest.json",
+      "sha256": "c91ce272982579291aad90831435185397fc541a41de269c8d7b82a8332cd68b"
+    },
+    {
+      "path": "experiments/phase_9/final_load_smoke.json",
+      "sha256": "25fa9e17c9bfa56131ee6fad735163ef38653e8f101e733c2d99befdede9b969"
+    },
+    {
+      "path": "experiments/phase_9/backup_restore_results.json",
+      "sha256": "192d8eca7a72759cee0c5818bbf2ec81cd91141fe63746fe4edbed1095db2c29"
+    },
+    {
+      "path": "experiments/phase_9/restart_recovery_results.json",
+      "sha256": "929347fa0cae7bad34513462f24afb8110f3ccc39939d89d9211f401f995208d"
+    }
+  ]
+}

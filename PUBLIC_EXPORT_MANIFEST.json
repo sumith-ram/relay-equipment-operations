@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "owner": "sumith-ram",
+  "export": "relay",
+  "publication_status": "AWAITING_OWNER_REVIEW",
+  "payload_scope": "case-study documentation and selected captures; no application source",
+  "membership_rule": "Only listed payload files are selected; no other files or parent directories may be uploaded. Selection is not a license grant.",
+  "self_integrity": "This manifest excludes its own bytes to avoid recursive self-hashing. Its exact size/SHA-256 and every other staged file are recorded in the external GITHUB_PUBLISH_INVENTORY.json and GITHUB_PUBLISH_MANIFEST.md.",
+  "files": [
+    {
+      "relative_path": ".gitignore",
+      "size": 254,
+      "sha256": "6d5ae35ac820869adbfa84aa23ea8c325226c4fa061c74ed8be9bb160f9863c3",
+      "category": "metadata",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "ARCHITECTURE.md",
+      "size": 943,
+      "sha256": "566272e2e035d8cad5fc8ff246cda5ba3c532171051c778813fa80a7d5052f71",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "assets/command-palette.png",
+      "size": 235306,
+      "sha256": "4966d1d11cc851b25515610236cfab83a3ce1235d693c188a5b6e6f42f8f366d",
+      "category": "screenshot",
+      "source_origin": "canonical:relay/experiments/visual_apex/va3/screenshots/product_showcase/12_command_palette.png",
+      "publication_reason": "Command palette and fixture asset navigation"
+    },
+    {
+      "relative_path": "assets/recovery.png",
+      "size": 401825,
+      "sha256": "622e6693544c46b4b229786e808fa243d81774140fe77254cee41d229019d39a",
+      "category": "screenshot",
+      "source_origin": "canonical:relay/experiments/visual_apex/va3/screenshots/product_showcase/09_recovery.png",
+      "publication_reason": "Fixture-based incident resolution workspace, late return, quarantine and resolved condition case"
+    },
+    {
+      "relative_path": "assets/reservations.png",
+      "size": 1153034,
+      "sha256": "48f01577a8dbcc8bdd7e99710183df56334bbe5c5603560f6acd88adb666dcb6",
+      "category": "screenshot",
+      "source_origin": "canonical:relay/experiments/visual_apex/va3/screenshots/product_showcase/03_reservations.png",
+      "publication_reason": "Fixture timeline, availability and reservation lifecycle controls"
+    },
+    {
+      "relative_path": "evidence/results.json",
+      "size": 1041,
+      "sha256": "0927e80a2503b55a6eca39369c97698109f127e4151d90ee4ae47d0c3c314c4d",
+      "category": "aggregate_evidence",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Selected aggregate numerical evidence; no raw result file or records copied"
+    },
+    {
+      "relative_path": "EVIDENCE.md",
+      "size": 1057,
+      "sha256": "3cb377ede1d18174ed074accb1d1e5fe8124ea4a810092486b5ab1c497e9bafb",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "GITHUB_METADATA.md",
+      "size": 906,
+      "sha256": "b1069e1a5dcabedb1ad43f0eb5f48fe77ca8fd04e76b287c12a153aaa6e895ea",
+      "category": "metadata",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "PROVENANCE.md",
+      "size": 1166,
+      "sha256": "2f41a4ab82b8a0e5caeebc1fae40ed8f8f83235a7d819f3416c2f1ff24c14d40",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "README.md",
+      "size": 6445,
+      "sha256": "1d025f858c9aec38ec967bce10f5e9c8b106cbd97578e81787532015ded2c567",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "REPRODUCIBILITY.md",
+      "size": 922,
+      "sha256": "7125bd75a7a2acdc685574b88a81479122192d0e27941b3bcb0e3b588d9d82b1",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "SCREENSHOT_REGISTER.md",
+      "size": 4002,
+      "sha256": "a8cfcfa61a025413183a9b777ccbde6db272514f6c7cd9512ad37836abf771c6",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Per-image content/provenance review and explicit limitations"
+    },
+    {
+      "relative_path": "SOURCE_RELEASE_DECISION.md",
+      "size": 2911,
+      "sha256": "4c55fc15b47fc9115c2618197f566f2c1056b9bfef4e90508b3678bfabf4a7f1",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "VALIDATION.md",
+      "size": 2899,
+      "sha256": "57f7d45ccd7d2b6fbba4cabb7a2bf403791f61f34dffe09cc12fa8a195a48379",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "New present-state checks separated from immutable historical evidence"
+    }
+  ]
+}
